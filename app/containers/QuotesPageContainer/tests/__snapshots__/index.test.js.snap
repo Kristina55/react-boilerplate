@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteListPage should render and match the snapshot 1`] = `
+<div
+  class="QuotesListPage__QuoteWrapper-sc-1mzta8u-0 fUILbL"
+>
+  <div
+    class="QuotesListPage__Quotes-sc-1mzta8u-1 isPNRt"
+  >
+    <ul>
+      <div>
+        <li
+          class="Quote__QuoteStyle-sc-5smwmg-0 wKlZm"
+        >
+          mock1
+        </li>
+      </div>
+      <div>
+        <li
+          class="Quote__QuoteStyle-sc-5smwmg-0 wKlZm"
+        >
+          mock2
+        </li>
+      </div>
+      <div>
+        <li
+          class="Quote__QuoteStyle-sc-5smwmg-0 wKlZm"
+        >
+          mock3
+        </li>
+      </div>
+    </ul>
+  </div>
+</div>
+`;

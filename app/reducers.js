@@ -6,8 +6,8 @@ import { combineReducers } from 'redux';
 import { connectRouter } from 'connected-react-router';
 
 import history from 'utils/history';
-import globalReducer from 'containers/App/reducer';
 import languageProviderReducer from 'containers/LanguageProvider/reducer';
+import globalReducer from './combineReducers';
 
 /**
  * Merges the main reducer with the router state and dynamically injected reducers
